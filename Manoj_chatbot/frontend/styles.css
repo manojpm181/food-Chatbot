@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    padding: 10px 0;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header nav a:hover {
+    color: #ff6347;
+}
+
+section {
+    padding: 20px;
+}
+
+.hd-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 1920px; /* Ensure maximum width is suitable for HD */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.grid-container img:hover {
+    transform: scale(1.1);
+}
+
+.chat-bot {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}

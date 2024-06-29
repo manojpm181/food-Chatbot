@@ -41,18 +41,23 @@ Python: Handles requests from the frontend, communicates with Dialogflow, and re
 XAMPP
 
 XAMPP: Used to manage the backend server locally for testing and development purposes.
+
 6. Testing
 Unit Testing: Each component of the frontend and backend is tested individually.
 Integration Testing: Interaction between the frontend, backend, and Dialogflow is tested to ensure smooth communication.
 User Testing: The chatbot is tested with real users to gather feedback and make necessary improvements.
-7. Results
+
+8. Results
 The chatbot successfully handles various food-related queries.
 Users can interact with the chatbot seamlessly through the frontend interface.
 The backend efficiently processes user inputs and generates appropriate responses using Dialogflow.
-8. Conclusion
+
+
+
+10. Conclusion
 The Food Chatbot project demonstrates a successful integration of Dialogflow with a Python backend and a user-friendly frontend interface. The chatbot efficiently processes natural language inputs and provides relevant responses, making it a valuable tool for users seeking information about food.
 
-9. Future Work
+11. Future Work
 Enhanced NLP: Improving the chatbot's natural language understanding capabilities.
 Database Integration: Storing user queries and responses in a database for analysis.
 Feature Expansion: Adding more functionalities such as recipe suggestions and nutritional information.
